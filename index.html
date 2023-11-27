@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do lisst</title>
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="todo-container">
+      <h2>To-Do List</h2>
+      <div class="todoSort" id="sort">
+        <img src="assets/images/sort.png" alt="" />
+      </div>
+      <div
+        style="
+          border: 0.1rem solid #c4c4c4;
+          margin: 1.2rem 2.2rem 1.8rem 2.8rem;
+          border-radius: 1rem;
+          padding: 1.2rem 3rem 1rem 2.7rem;
+        "
+      >
+        <ul id="todoList"></ul>
+      </div>
+      <div class="btns-holder">
+        <button
+          style="
+            position: relative;
+            right: -3rem;
+
+            pointer-events: none;
+            width: 4rem;
+            height: 4.2rem;
+            margin: 0;
+            padding: 0;
+            color: #ffff;
+            background-color: #9261d1;
+            border: none;
+          "
+        >
+          +
+        </button>
+        <button class="add-btn" id="addBtn">Add</button>
+      </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
